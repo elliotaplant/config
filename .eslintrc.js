@@ -3,6 +3,7 @@ module.exports = {
     es6: true,
     node: true,
     jest: true,
+    jasmine: true,
     browser: true,
   },
   globals: {
@@ -16,10 +17,12 @@ module.exports = {
     'function-paren-newline': 0,
     'no-bitwise': 'off',
     'no-var': 'error',
+    'no-multi-spaces': 'error',
     'quotes': ['error', 'single'],
     'quote-props': ['error', 'consistent-as-needed'],
     'prefer-const': 'error',
     'semi': ['error', 'always'],
+    'space-in-parens': ['error', 'never'],
     camelcase: 'off',
     'max-len': [
       2, {
